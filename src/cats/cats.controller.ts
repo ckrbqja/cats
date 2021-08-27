@@ -1,6 +1,5 @@
-import { SuccessInterceptor } from './../success.interceptor';
+import { SuccessInterceptor } from './../common/interceptor/success.interceptor';
 import { PositiveIntPipe } from './../common/positiveInt.pipe';
-import { HttpExceptionFilter } from './../httpException.filter';
 import { CatsService } from './cats.service';
 import {
     Controller,
